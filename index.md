@@ -5,7 +5,7 @@ hero:
   name: 'Fivem H&GADMIN'
   text: V3 Pro版
   textsuffix: 本
-  tagline: ✨ 适用于 <a href='https://yunzai-org.github.io/docs' target='_blank'>Yunzai</a> 生态
+  tagline: ✨ 适用于 <a href='[https://yunzai-org.github.io/docs](https://docs.fivem.net/docs/)' target='_blank'>FIVEM</a> 生态
   prelink:
     title: '<p style="text-align: left;"><i class="fa-solid fa-bolt fa-shake" style="color: #FFD43B;"></i> 快速开始</p><div style="text-align: left; font-weight: bold; word-break: break-all; overflow-wrap: break-word;">https://mtx.tebex.io/package/7214020</div>'
   image:
