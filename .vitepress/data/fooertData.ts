@@ -1,7 +1,7 @@
 import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
-  author: { name: 'ikenxuan', link: 'https://github.com/ikenxuan' },
+  author: { name: 'XingChenwa', link: 'https://github.com/XingChenwa' },
   group: [
     {
       title: '友链',
