@@ -44,8 +44,8 @@ export default
     pwa,
     lang: 'zh-CN',
     title: 'HGadmin-v3',
-    titleTemplate: 'Yunzai-Bot 的视频解析插件',
-    description: 'Yunzai-Bot 的视频解析插件',
+    titleTemplate: 'Fivem ADMIN插件',
+    description: 'Fivem 脚本',
     markdown: {
       math: true,
       // 全局代码块行号显示
