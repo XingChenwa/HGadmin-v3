@@ -15,8 +15,8 @@ const nav = [
       {
         text: '功能',
         items: [
-          { text: '作品解析', link: '/docs/intro/main/main' },
-          { text: '动态推送', link: '/docs/intro/push' },
+          { text: 'xx功能', link: '/docs/intro/main/main' },
+          { text: 'xx功能2', link: '/docs/intro/push' },
           { text: 'API Server', link: '/docs/intro/apiserver' },
           { text: '其他功能', link: '/docs/intro/other' },
         ],
@@ -31,7 +31,6 @@ const nav = [
           },
           { text: '投喂', link: '/docs/other/afdian' },
           { text: '免责声明', link: '/docs/other/disclaimer' },
-          { text: '版本历史', link: '/docs/other/timeline' },
 
         ],
       },

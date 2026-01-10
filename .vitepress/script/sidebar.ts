@@ -11,13 +11,13 @@ const sidebar = [
     text: '功能',
     items: [
       {
-        text: '<i class="fa-solid fa-bars fa-flip"></i> 作品解析', link: '/docs/intro/main/main', items: [
-          { text: '<i class="fa-brands fa-tiktok fa-fade"></i> 抖音相关', link: '/docs/intro/main/douyin', },
-          { text: '<i class="fa-brands fa-bilibili fa-fade"></i> B站相关', link: '/docs/intro/main/bilibili' },
-          { text: '快手相关', link: '/docs/intro/main/kuaishou' },
+        text: '<i class="fa-solid fa-bars fa-flip"></i> xx说明', link: '/docs/intro/main/main', items: [
+          { text: '<i class="fa-brands fa-tiktok fa-fade"></i> 配置相关', link: '/docs/intro/main/douyin', },
+          { text: '<i class="fa-brands fa-bilibili fa-fade"></i> 原神相关', link: '/docs/intro/main/bilibili' },
+          { text: 'xx相关', link: '/docs/intro/main/kuaishou' },
         ]
       },
-      { text: '<i class="fa-brands fa-pushed fa-fade"></i> 动态推送', link: '/docs/intro/push' },
+      { text: '<i class="fa-brands fa-pushed fa-fade"></i> xx功能2', link: '/docs/intro/push' },
       { text: '<i class="fa-solid fa-server fa-fade"></i> API Server', link: '/docs/intro/apiserver' },
       { text: '其他功能', link: '/docs/intro/other' },
     ],
