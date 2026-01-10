@@ -10,9 +10,9 @@ const pwa: Partial<VitePWAOptions> = {
   includeAssets: fg.sync('**/*.{png,svg,gif,ico,txt}', { cwd: resolve(__dirname, '../../public') }),
   manifest: {
     id: "/",
-    name: 'kkkkkk-10086',
-    short_name: 'kkkkkk-10086',
-    description: '适用于 Yunzai / Karin 生态的视频解析、推送插件',
+    name: 'HGadmin-v3',
+    short_name: 'HGadmin-v3',
+    description: '适用于 ESX / QB 生态的插件',
     theme_color: "#ffffff",
     icons: [
       {
