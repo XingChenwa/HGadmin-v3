@@ -44,8 +44,8 @@ export default
     pwa,
     lang: 'zh-CN',
     title: 'HGadmin-v3',
-    titleTemplate: 'Fivem ADMIN插件',
-    description: 'Fivem 脚本',
+    titleTemplate: 'Fivem 的插件',
+    description: 'Fivem 的插件',
     markdown: {
       math: true,
       // 全局代码块行号显示
