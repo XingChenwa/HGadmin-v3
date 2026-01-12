@@ -1,6 +1,6 @@
+# hgadmin V3 pro 配置文件相关
 
-hgadmin V3 pro 配置文件相关
-
+### Config.lua
 ```sh
 Config = {}
 Config.DB = {} 
