@@ -152,7 +152,7 @@ export default
     lastUpdated: true,
     // 站点地图
     sitemap: {
-      hostname: 'https://XingChenwa.github.io/HGadmin-v3/',
+      hostname: 'https://XingChenwa.github.io/',
     },
     head: [
       ['link', { rel: 'icon', href: '/HGadmin-v3/logo.png' }], //部署到vitepress仓库
