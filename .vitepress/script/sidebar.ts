@@ -11,10 +11,9 @@ const sidebar = [
     text: '功能',
     items: [
       {
-        text: '<i class="fa-solid fa-bars fa-flip"></i> xx说明', link: '/docs/intro/main/main', items: [
-          { text: '<i class="fa-brands fa-tiktok fa-fade"></i> 配置相关', link: '/docs/intro/main/douyin', },
-          { text: '<i class="fa-brands fa-bilibili fa-fade"></i> 原神相关', link: '/docs/intro/main/bilibili' },
-          { text: 'xx相关', link: '/docs/intro/main/kuaishou' },
+        text: '<i class="fa-solid fa-bars fa-flip"></i> HGadmin v3说明', link: '/docs/intro/main/main', items: [
+          { text: '<i class="fa-solid fa-gear fa-fade"></i> 配置相关', link: '/docs/intro/main/hgadminv3config', },
+          { text: '<i class="fa-brands fa-modx fa-fade"></i> 模块化传送系统相关', link: '/docs/intro/main/csmk' },
         ]
       },
       { text: '<i class="fa-brands fa-pushed fa-fade"></i> xx功能2', link: '/docs/intro/push' },
