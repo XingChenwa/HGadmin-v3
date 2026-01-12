@@ -7,34 +7,36 @@
 
 # 安装说明 第一步 你从 你keymaster上下载下来之后  有 5个文件 
 
-1. esx_weathersync
-2. qb-weathersync
-3. screenshot-basic
+1. `esx_weathersync`
+2. `qb-weathersync`
+3. `screenshot-basic`
 
-4. hgadmin     这个是单管理员 
-5. hgadmin_extra   这个是云管理 web 扩展 
+4. `hgadmin`     这个是单管理员 
+5. `hgadmin_extra`   这个是云管理 web 扩展 
 
-这以上都是 依赖项目 weathersync 是天气依赖  screenshot-basic 是用于截图的依赖  如果你本来 服务器上拥有了， 即可不用在安装  
+这以上都是 依赖项目 `weathersync` 是天气依赖  `screenshot-basic` 是用于截图的依赖  如果你本来 服务器上拥有了， 即可不用在安装  
 然后 我们将我们的依赖脚本  
-丢进 一个 [admin]  这么一个文件夹  丢进server.cfg 里面 写一个启动项目即可 
-像 如下 ensure [admin]   然后将我们的这些脚本 放进这么一个文件夹 里面直接启动即可  
+丢进 一个 `[admin]`  这么一个文件夹  丢进`server.cfg` 里面 写一个启动项目即可 
+像 如下 ensure `[admin]`   然后将我们的这些脚本 放进这么一个文件夹 里面直接启动即可  
 
-天气依赖， 根据您使用的是 qb 框架 还是 ESX 框架 选择您使用的哪个， 留下 哪个即可 
+天气依赖， 根据您使用的是 `qb` 框架 还是 `ESX` 框架 选择您使用的哪个， 留下 哪个即可 
+
+1. `esx_weathersync`
+2. `qb-weathersync`
 
 
-然后启动脚本之后 我们来到 hgadmin/config.lua  全局搜索 
-
-
-以及 您需要在 server.cfg 添加一条指令  否则您的实时控制台 会无法输入命令 
-
+以及 您需要在`server.cfg`添加一条指令  否则您的实时控制台 会无法输入命令 
+```sh
 add_ace resource.hgadmin command allow
-
+```
+在 config.lua 中配置超级管理员，超级管理员拥有所有权限且无法被限制：
+```sh
 Config.SuperAdmins = {
     -- "license:6b593f69c7ed2803f462248c1f02c285f947322c",
     -- "discord:123456789012345678",
     -- "steam:110000xxxxxxxxx",
 }
-
+```
 来到这里 配置您的最高标识符 权限 如 无配置最高权限 则 无法使用全部功能   由最高 权限者 superadmin  在游戏内使用 员工权限系统 给您的其他管理员 分配权限事件  代替  原本 config.lua 权限组 的事件逻辑 不用在config 一个一个配置 每一个权限组的可使用权限了 
 一切可以在游戏里配置 ，更加方便  而且可以在游戏里创建多个权限组事件， 更加安全可靠 
 
