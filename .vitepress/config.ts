@@ -148,14 +148,14 @@ export default
       },
     },
     cleanUrls: true,
-    base: '/HGadmin-v3/',
+    base: '/',
     lastUpdated: true,
     // 站点地图
     sitemap: {
-      hostname: 'https://XingChenwa.github.io/',
+      hostname: 'https://xingchenwa.github.io/',
     },
     head: [
-      ['link', { rel: 'icon', href: '/HGadmin-v3/logo.png' }], //部署到vitepress仓库
+      ['link', { rel: 'icon', href: '/logo.png' }], //部署到站点根目录
     ],
     themeConfig: {
       logo: {
