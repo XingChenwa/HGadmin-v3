@@ -624,8 +624,7 @@ exports("GetAllRoles", xiaoha.GetAllRoles)
 exports("GetRoleInfo", xiaoha.GetRoleInfo)
 
 ```
-
-
+::: 
 
 
 
@@ -690,4 +689,3 @@ Config.KookBot = {
     }
 }
 ```
-::: 
