@@ -4,7 +4,6 @@ const sidebar = [
     items: [
       { text: '<i class="fa-solid fa-play fa-beat"></i> 简介', link: '/docs/start/start' },
       { text: '<i class="fa-solid fa-download fa-fade"></i> 安装插件', link: '/docs/start/install' },
-      { text: '<i class="fa-solid fa-gear fa-spin"></i> 配置文件', link: '/docs/start/start.config' },
     ],
   },
   {
@@ -12,11 +11,16 @@ const sidebar = [
     items: [
       {
         text: '<i class="fa-solid fa-bars fa-flip"></i> HGadmin v3说明', link: '/docs/intro/main/main', items: [
-          { text: '<i class="fa-solid fa-gear fa-fade"></i> 配置相关', link: '/docs/intro/main/hgadminv3config', },
+          { text: '<i class="fa-solid fa-gear fa-spin"></i> 配置文件', link: '/docs/intro/main/hgadminv3config', },
           { text: '<i class="fa-brands fa-modx fa-fade"></i> 模块化传送系统相关', link: '/docs/intro/main/csmk' },
         ]
       },
-      { text: '<i class="fa-brands fa-pushed fa-fade"></i> xx功能2', link: '/docs/intro/push' },
+
+      {
+        text: '<i class="fa-solid fa-bars fa-flip"></i> hgadmin_extra说明', link: '/docs/intro/hgadminextra/main', items: [
+          { text: '<i class="fa-solid fa-gear fa-spin"></i> 扩展说明', link: '/docs/intro/hgadminextra/extrakzsm', },
+        ]
+      },
       { text: '<i class="fa-solid fa-server fa-fade"></i> API Server', link: '/docs/intro/apiserver' },
       { text: '其他功能', link: '/docs/intro/other' },
     ],
