@@ -32,7 +32,3 @@ _**这是一个基于 [FiveM](https://fivem.net) 的服务器管理员插件，�
 <NCard title='<i class="fa-solid fa-envelope fa-shake" style="color: #FFB805;"></i> 通过 GitHub issue' link="https://github.com/XingChenwa/HGadmin-v3/issues/new/choose" >
 也可以给通过创建新的 GitHub issue 工单
 </NCard>
-
-本站总访问量 <span id="busuanzi_value_site_pv" /> 次
-
-![Star History Chart](https://api.star-history.com/svg?repos=XingChenwa/HGadmin-v3&type=Date)
