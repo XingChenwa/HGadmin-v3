@@ -1,6 +1,6 @@
 # hgadmin V3 pro 配置文件相关
 
-### Config.lua
+::: details Config.lua配置文件
 ```sh
 Config = {}
 Config.DB = {} 
@@ -1312,3 +1312,4 @@ Config.AddTeleportLocation = function(locationKey, coords, name, description, ac
     end
 end
 ```
+::: 
