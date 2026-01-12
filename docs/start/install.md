@@ -17,13 +17,25 @@
 这以上都是 依赖项目 `weathersync` 是天气依赖  `screenshot-basic` 是用于截图的依赖  如果你本来 服务器上拥有了， 即可不用在安装  
 然后 我们将我们的依赖脚本  
 丢进 一个 `[admin]`  这么一个文件夹  丢进`server.cfg` 里面 写一个启动项目即可 
-像 如下 ensure `[admin]`   然后将我们的这些脚本 放进这么一个文件夹 里面直接启动即可  
+像 如下 `ensure [admin]`   然后将我们的这些脚本 放进这么一个文件夹 里面直接启动即可  
 
-天气依赖， 根据您使用的是 `qb` 框架 还是 `ESX` 框架 选择您使用的哪个， 留下 哪个即可 
-
+天气依赖， 根据您使用的是 `qb` 框架 还是 `ESX` 框架留下哪个天气插件即可 
+下载出来有以下两个文件，删除一个启动`[admin]`即可
 1. `esx_weathersync`
 2. `qb-weathersync`
 
+或者是
+
+#### 以下按不同框架改动[天气插件](留一个下载出来是两个文件的)
+::: code-group
+
+```sh [QB]
+start qb-weathersync
+```
+
+```sh [ESX]
+start esx_weathersync
+```
 
 以及 您需要在`server.cfg`添加一条指令  否则您的实时控制台 会无法输入命令 
 ```sh
