@@ -1,5 +1,6 @@
 # hgadmin V3 pro 配置文件相关
 
+### Config.lua配置说明
 ::: details Config.lua配置文件
 ```lua
 Config = {}

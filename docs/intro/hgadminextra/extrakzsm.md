@@ -1,5 +1,6 @@
 # 如何访问我们的 web 管理员菜单
 
+### 配置说明
 1. 如未开通 默认设置 `50120` 端口 需 联系您机房 客服 开通 50120 端口 否则外网是无法访问的 
 
 2. 不要 使用默认密码 以及账户 权限 事件 一定要认真分配 以及 一些事件 不要分配给 不重要的管理员  能明白？ 
@@ -632,7 +633,7 @@ exports("GetRoleInfo", xiaoha.GetRoleInfo)
 
 
 
-# 白名单相关 
+### 白名单相关 
 1. 如需要使用我们的白名单管理员 直接在 游戏内kook机器人配置里面开启 不要在`config.lua` 里面 将`EnableWhiteList` 为 `true` 
 
 ```lua
@@ -652,7 +653,7 @@ Config.EnableWhiteList = false -- 是否开启白名单（建议在 hgadmin 管�
 
 
 
-# kook bot
+### kook bot
 
 这里 请自行 前往`kook开发者中心` 进行 配置机器人 `token` 即可 以及您的 频道id    验证的token 不用填  serverid 也不用填 
 ```lua
