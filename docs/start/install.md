@@ -36,8 +36,10 @@ start qb-weathersync
 ```sh [ESX]
 start esx_weathersync
 ```
+:::
 
 以及 您需要在`server.cfg`添加一条指令  否则您的实时控制台 会无法输入命令 
+
 ```sh
 add_ace resource.hgadmin command allow
 ```
