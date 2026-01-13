@@ -51,21 +51,21 @@ Config.SuperAdmins = {
     -- "steam:110000xxxxxxxxx",
 }
 ```
-来到这里 配置您的最高标识符 权限 如 无配置最高权限 则 无法使用全部功能   由最高 权限者 superadmin  在游戏内使用 员工权限系统 给您的其他管理员 分配权限事件  代替  原本 config.lua 权限组 的事件逻辑 不用在config 一个一个配置 每一个权限组的可使用权限了 
+来到这里 配置您的最高标识符 权限 如 无配置最高权限 则 无法使用全部功能   由最高 权限者 `superadmin`  在游戏内使用 员工权限系统 给您的其他管理员 分配权限事件  代替  原本 `config.lua` 权限组 的事件逻辑 不用在`config` 一个一个配置 每一个权限组的可使用权限了 
 一切可以在游戏里配置 ，更加方便  而且可以在游戏里创建多个权限组事件， 更加安全可靠 
 
 
-这里温馨提示， 切勿将 代码编辑器 的权限 交给您不可相信的管理员   否则后果自负  不要轻易给人上superadmin 权限， 这将是最高权限 可直接实时修改您的服务端代码 并保存， 如果保存后，您的代码将会被修改， 无法恢复 ！！！ 不要交给不信任的人 这个权限！！！
+这里温馨提示， 切勿将 代码编辑器 的权限 交给您不可相信的管理员   否则后果自负  不要轻易给人上`superadmin` 权限， 这将是最高权限 可直接实时修改您的服务端代码 并保存， 如果保存后，您的代码将会被修改， 无法恢复 ！！！ 不要交给不信任的人 这个权限！！！
 
-然后 如 使用qb框架的  或者 qs库存的，这些将您的物品代码如果是写在qbcore 核心里面的 需 手动在  hgadmin/config.lua    将 默认的 auto 选择 为qb 即可 
+然后 如 使用`qb`框架的  或者 `qs`库存的，这些将您的物品代码如果是写在`qbcore` 核心里面的 需 手动在  `hgadmin/config.lua`    将 默认的 `auto` 选择 为`qb` 即可 
 ```sh
 Config.Inventory = "auto" -- 可选值: "auto", "ox", "qs", "qb", "ps", "tgiann", "ms_inventory", "codem-inventory", "origen_inventory" -- 目前仅支持这些库存 qb库存的方式是获取qbcore的items.lua 的物品，
 
 -- Use "ox" or "qs" "ms_inventory" "tgiann" "codem-inventory" "ps" "qb". Leave empty to use the framework's default database method.
 ```
-为什么 我使用不了截图玩家？ 截图没有反应？  您也许是没有安装 screenshot-basic  本脚本自带了 这个项目 如没有安装需要安装， 如已有 则不需要在安装， 能否明白？
+为什么 我使用不了截图玩家？ 截图没有反应？  您也许是没有安装 `screenshot-basic` 本脚本自带了 这个项目 如没有安装需要安装， 如已有 则不需要在安装， 能否明白？
 
-您进入游戏后 默认打开管理员菜单的命令 是  /xiaoha  或者使用按键绑定 
+您进入游戏后 默认打开管理员菜单的命令 是  `/xiaoha`  或者使用按键绑定 
 ```
 Config.anjian = 'PAGEUP'      -- 可修改为HOME，或者您想要的按键，此功能可在游戏里的设置找到按键绑定，里面修改到别的键位，  作者自用PGUP，因为作者键盘没有HOME键，所以默认PGUP，可自行修改为其他按键
 ```
