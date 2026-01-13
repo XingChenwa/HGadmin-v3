@@ -40,7 +40,7 @@ start esx_weathersync
 
 以及 您需要在`server.cfg`添加一条指令  否则您的实时控制台 会无法输入命令 
 
-```sh
+```
 add_ace resource.hgadmin command allow
 ```
 在 config.lua 中配置超级管理员，超级管理员拥有所有权限且无法被限制：
