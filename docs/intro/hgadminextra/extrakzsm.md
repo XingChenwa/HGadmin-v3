@@ -15,7 +15,7 @@
 您的账号在哪里 修改？  请您 前往 我们的 `hgadmin_extra\server\xiaoha.lua` 进行 配置 账户相关权限事宜 
 
 ::: details config.lua配置配置文件
-```sh
+```lua
 xiaoha = {}
 
 -- ============================================
@@ -635,7 +635,7 @@ exports("GetRoleInfo", xiaoha.GetRoleInfo)
 # 白名单相关 
 1. 如需要使用我们的白名单管理员 直接在 游戏内kook机器人配置里面开启 不要在`config.lua` 里面 将`EnableWhiteList` 为 `true` 
 
-```sh
+```lua
 -- 白名单配置
 -- ⚠️ 注意：如果 hgadmin 资源已启动，白名单开关将从 hgadmin 的「Kook日志配置」页面读取
 -- 在管理面板中的「Kook日志配置」->「白名单功能」中可以配置：
@@ -655,7 +655,7 @@ Config.EnableWhiteList = false -- 是否开启白名单（建议在 hgadmin 管�
 # kook bot
 
 这里 请自行 前往`kook开发者中心` 进行 配置机器人 `token` 即可 以及您的 频道id    验证的token 不用填  serverid 也不用填 
-```sh
+```lua
 -- KOOK 配置
 Config.KookBot = {
     enabled = true,                   -- 是否启用 KOOK 通知

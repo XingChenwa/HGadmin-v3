@@ -7,8 +7,7 @@
 ├── client/
 │   ├── main.lua                  # 主客户端文件 (已优化)
 │   └── chuansong.lua            # 传送模块文件 (新增)
-├── fxmanifest.lua               # 资源清单 (已更新)
-└── 传送系统配置指南.md          # 配置指南
+└── fxmanifest.lua               # 资源清单 (已更新)
 ```
 
 
@@ -22,13 +21,13 @@
 ## 🚀 如何使用
 
 ### 1. **查看可用传送位置**
-```
+```sh
 /listteleports
 ```
 这个命令会列出所有配置的传送位置和操作。
 
 ### 2. **测试传送功能**
-```
+```sh
 /testteleport sendtolegion
 ```
 测试传送到军团广场功能。

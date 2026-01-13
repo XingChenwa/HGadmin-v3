@@ -29,11 +29,11 @@
 #### 以下按不同框架改动天气插件（留一个下载出来是两个文件的）
 ::: code-group
 
-```sh [QB]
+``` [QB]
 start qb-weathersync
 ```
 
-```sh [ESX]
+``` [ESX]
 start esx_weathersync
 ```
 :::
@@ -44,7 +44,7 @@ start esx_weathersync
 add_ace resource.hgadmin command allow
 ```
 在 config.lua 中配置超级管理员，超级管理员拥有所有权限且无法被限制：
-```sh
+```lua
 Config.SuperAdmins = {
     -- "license:6b593f69c7ed2803f462248c1f02c285f947322c",
     -- "discord:123456789012345678",
@@ -58,7 +58,7 @@ Config.SuperAdmins = {
 这里温馨提示， 切勿将 代码编辑器 的权限 交给您不可相信的管理员   否则后果自负  不要轻易给人上`superadmin` 权限， 这将是最高权限 可直接实时修改您的服务端代码 并保存， 如果保存后，您的代码将会被修改， 无法恢复 ！！！ 不要交给不信任的人 这个权限！！！
 
 然后 如 使用`qb`框架的  或者 `qs`库存的，这些将您的物品代码如果是写在`qbcore` 核心里面的 需 手动在  `hgadmin/config.lua`    将 默认的 `auto` 选择 为`qb` 即可 
-```sh
+```lua
 Config.Inventory = "auto" -- 可选值: "auto", "ox", "qs", "qb", "ps", "tgiann", "ms_inventory", "codem-inventory", "origen_inventory" -- 目前仅支持这些库存 qb库存的方式是获取qbcore的items.lua 的物品，
 
 -- Use "ox" or "qs" "ms_inventory" "tgiann" "codem-inventory" "ps" "qb". Leave empty to use the framework's default database method.
