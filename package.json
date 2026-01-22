@@ -5,7 +5,6 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  
   "dependencies": {
     "@nolebase/markdown-it-bi-directional-links": "2.5.0",
     "@nolebase/markdown-it-unlazy-img": "^2.11.1",
